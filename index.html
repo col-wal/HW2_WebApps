@@ -2,58 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Home Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
   <header>
-    <h1>Slackline at UVA</h1>
-    <h2>The Official Homepage of the UVA Slacklining Club</h2>
-    <nav>
+    <div id="header-text-container" class="col-12">
+      <h1>Slackline at UVA</h1>
+      <h2>The Official Homepage of the UVA Slacklining Club</h2>
+    </div>
+    <nav class="col-12">
       <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
+      <a href="about.html">About</a>
       <a href="trips.html">Trips</a>
       <a href="practices.html">Practices</a>
-      <a href="contact.html">Contact Us</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
-  <section id="about">
-    <h2>The Biggest Slackers on Grounds</h2>
-    <p>
-      Welcome to the official homepage of the UVA Slacklining Club! 
-      We offer weekly practices on the South Lawn (in front of New Cabell Hall) and a variety of trips to nearby areas for highlines and waterlines.
-    </p>
-    <img class="about-image" src="pictures/sugarhollow.jpeg" alt="Slacklining at Mint Springs Park">
-  </section>
-  <section id="highlight-container">
-    <section class="highlight-element">
-      <img class="highlight-image" src="pictures/saturday.jpeg" alt="Highlining in Smoke Hole Canyon, WV">
-      <h3>Climbing and Highlining in West Virginia</h3>
-      <p>Members of the slacklining community highlining and climbing on a cold January Day in Smoke Hole Canyon, WV</p>
+  <main class="col-12">
+    <section id="about" class="col-11">
+      <h2>The Biggest Slackers on Grounds</h2>
+      <p>
+        Welcome to the official homepage of the UVA Slacklining Club! 
+        We offer weekly practices on the South Lawn (in front of New Cabell Hall) and a variety of trips to nearby areas for highlines and waterlines.
+      </p>
+      <img class="about-image" src="pictures/saturday.jpeg" alt="Highlining and climbing in Smoke Hole Canyon, WV">
     </section>
-    <section class="highlight-element">
-      <img class="highlight-image" src="pictures/smokehole.jpeg" alt="Highlining in Smoke Hole Canyon, WV">
-      <h3>Highlining in Smoke Hole Canyon, WV</h3>
-      <p>Member of the club standing up on their first highline in Smoke Hole Canyon, WV</p>
+    <section id="highlight-container" class="col-11">
+      <section class="highlight-element col-4">
+        <div class="highlight-image-container">
+          <img class="highlight-image" src="pictures/sugarhollow.jpeg" alt="Slacklining at Mint Springs Park">
+        </div>
+        <div class="highlight-text-container">
+          <h3>Slacklining at Mint Springs Park</h3>
+          <p>Member of the club slacklining a cold January Day in Smoke Hole Canyon, WV</p>
+        </div>
+      </section>
+      <section class="highlight-element col-4">
+        <div class="highlight-image-container">
+          <img class="highlight-image" src="pictures/smokehole.jpeg" alt="Highlining in Smoke Hole Canyon, WV">
+        </div>
+        <div class="highlight-text-container">
+          <h3>Highlining in Smoke Hole Canyon, WV</h3>
+          <p>Member of the club standing up on their first highline in Smoke Hole Canyon, WV</p>
+        </div>
+      </section>
+      
+      <section class="highlight-element col-4">
+        <div class="highlight-image-container">
+          <img class="highlight-image" src="pictures/ohill.png" alt="Midline in Observatory Hill, Charlottesville">
+        </div>
+        <div class="highlight-text-container">
+          <h3>A midline rigged on Observatory Hill</h3>
+          <p>A close-to-grounds midline setup in the woods of Observatory Hill</p>
+        </div>
+      </section>
     </section>
-    <section class="highlight-element">
-      <img class="highlight-image" src="pictures/ohill.png" alt="Midline in Observatory Hill, Charlottesville">
-      <h3>A midline rigged on Observatory Hill</h3>
-      <p>A close-to-grounds midline setup in the woods of Observatory Hill </p>
-    </section>
-    
-  </section>
-  <footer>
+  </main>
+  <footer class="col-12">
     <nav id="footer-nav">
       <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
+      <a href="about.html">About</a>
       <a href="trips.html">Trips</a>
       <a href="practices.html">Practices</a>
-      <a href="contact.html">Contact Us</a>
+      <a href="contact.html">Contact</a>
     </nav>
     <small>
-      &copy 2025 Slackline at UVA 
+      &copy; 2025 Slackline at UVA 
     </small>
   </footer>
 </body>
