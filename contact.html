@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Page</title>
-  <link rel="stylesheet" href="styles/contact.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
 	<header>
@@ -12,34 +12,30 @@
 		<h2>The Official Homepage of the UVA Slacklining Club</h2>
 		<nav>
 			<a href="index.html">Home</a>
-			<a href="about.html">About Us</a>
+			<a href="about.html">About</a>
 			<a href="trips.html">Trips</a>
 			<a href="practices.html">Practices</a>
-			<a href="contact.html">Contact Us</a>
+			<a href="contact.html">Contact</a>
 		</nav>
 	</header>
-	<main>
+	<main id="info-section">
 		<h2>Contact Us</h2>
-		<h3>How To Stay In The Loop:</h3>
-		<div>
-			<div>
-				<a href="https://groupme.com/join_group/96236035/BDKmS3ia">GroupMe</a>
-			</div>
-			<div>
-				<a href="https://www.instagram.com/slacklineclubatuva/">Instagram</a>
-			</div>
-			<div>
-				<p>Club President: Santiago Pinto (zay8gu@virginia.edu)</p>
-				<img src="pictures/Santiago.jpeg" alt="Santiago in his element">
-			</div>
-			<div>                
-				<p>Club Co-President: Colin Walsh (hgc3sj@virginia.edu)</p>
-				<img src="pictures/Colin.jpeg" alt="Colin in his element">
-			</div>
-		</div>
+    <div class="info-container" style="display: flex; flex-direction: column; gap: 15px; padding: 10px;">
+		  <h3>How To Stay In The Loop:</h3>
+			<a href="https://groupme.com/join_group/96236035/BDKmS3ia">GroupMe</a>
+			<a href="https://www.instagram.com/slacklineclubatuva/">Instagram</a>
+    </div>
+    <div class="info-container">
+      <p>Club President: Santiago Pinto (zay8gu@virginia.edu)</p>
+      <img class="about-image" src="pictures/Santiago.jpeg" alt="Santiago in his element">
+    </div>
+    <div class="info-container">                
+      <p>Club Co-President: Colin Walsh (hgc3sj@virginia.edu)</p>
+      <img class="about-image" src="pictures/Colin.jpeg" alt="Colin in his element">
+    </div>
 	</main>
-	<footer>
-    <nav>
+	<footer class="col-12">
+    <nav id="footer-nav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="trips.html">Trips</a>
