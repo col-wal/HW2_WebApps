@@ -127,11 +127,6 @@ footer {
     max-width: 800px;
 }
 
-.contact-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 .about-image {
     border: 4px solid black;
     max-width: 100%;
